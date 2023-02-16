@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    color: #ffffff;
+    background-color: #15202B;
+    animation: fadeInAnimation ease-in 1s;
+}
+
+/* Page fade in */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.header {
+    font-size: 3rem;
+}
+
+.sub-header {
+    font-size: 2em;
+}
+
+.album-list {
+    display: list-item;
+}
+
+.button-box {
+    padding: 1vw 0;
+}
+
+.button {
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #099c97;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: #099c97;
+    background-color: #ffffff;
+}

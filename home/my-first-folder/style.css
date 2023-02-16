@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    color: #ffffff;
+    background-color: #15202B;
+    animation: fadeInAnimation ease-in 1s;
+}
+
+/* Page fade in */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.header {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.sub-header {
+    font-size: 2em;
+}
+
+.go-back {
+    margin: 10% 0;
+    padding: 1em;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #099c97;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.go-back:hover {
+    color: #099c97;
+    background-color: #ffffff;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .album {
+        display: block;
+    }
+}
+
+.image {
+    margin: 5% 0;
+}
+
+.photo-card {
+    height: auto;
+    width: 75%;
+    border-radius: 2px;
+}
+
+.download-link {
+    font-size: 2em;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #099c97;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.download-link:hover {
+    color: #099c97;
+    background-color: #ffffff;
+}
